@@ -1,0 +1,17 @@
+{
+"index": { "_index": "logs-keycloak-local" },
+  "@version": "1",
+  "facility_label": "user-level",
+  "host": "172.24.0.1",
+  "priority": 15,
+  "severity": 7,
+  "logsource": "b30a39183b61",
+  "severity_label": "Debug",
+  "program": "keycloak",
+  "pid": "1",
+  "facility": 1,
+  "timestamp": "Dec 6 21:00:03",
+  "type": "syslog",
+  "message": "2024-12-06 21:00:03,398 DEBUG [com.arjuna.ats.arjuna]"
+}
+
