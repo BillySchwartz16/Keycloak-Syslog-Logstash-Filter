@@ -67,7 +67,7 @@ services:
       - KC_HTTP_ENABLED=true
       - KC_HTTP_PORT=8080
       - KC_LOG=syslog,console
-      - KC_LOG_LEVEL=debug
+      - KC_LOG_LEVEL=org.keycloak.events:debug,info
       - KC_LOG_SYSLOG_LEVEL=debug
       - KC_LOG_SYSLOG_ENDPOINT=host.docker.internal:5044
       - KEYCLOAK_ADMIN=admin
